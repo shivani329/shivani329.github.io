@@ -1,3 +1,107 @@
-body {background:blue;
+
+
+
+body {background-image: url("background.jpg");
+position: center;
+}
+
+img {
+	position: relative;
+	vertical-align: middle;
+	margin-left: 450px;
+}
+
+.first_list {
+
+border: 3px solid lightblue;
+background: white;
+border-radius: 2px;
+padding: 10px;
+margin-left: 10px;
+font-size: 1.2em;
+text-align: center;
 
 }
+
+.differences {
+	text-align: center;
+}
+
+table {
+
+margin-left: auto;
+margin-right: auto;
+font-size: 1.3em;
+}
+
+#paragraph1 { 
+
+border: 3px solid lightgreen;
+background:white;
+border-radius: 2px;
+padding: 20px;
+margin-left: 10px;
+font-size: 1.2em;
+
+}
+
+ul {text-align: center;}
+#paragraph2 {
+border: 3px solid orange;
+background:white;
+border-radius: 2px;
+padding: 20px;
+margin-left: 10px;
+font-size: 1.2em;
+}
+
+
+#paragraph3 {
+
+border: 3px solid pink ;
+background:white;
+border-radius: 2px;
+padding: 20px;
+margin-left: 10px;
+font-size: 1.2em;}
+#headings {
+
+	font-family: arial, sans-serif;
+	text-align: center;
+
+}
+
+#lastheading {
+
+	font-family: arial, sans-serif;
+	text-align: center;
+	
+}
+
+.list {
+
+	font-size: 1.5em;
+	text-shadow: 3px;
+}
+
+#list {
+
+border: 3px solid black;
+border-radius: 2px;
+padding: 20px;
+margin-left: 10px;
+font-size: 1.2em;
+
+}
+
+#title {
+	font-family: arial, sans-serif;
+	text-align: center;
+
+}
+
+a:visited {color: green;}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;}
